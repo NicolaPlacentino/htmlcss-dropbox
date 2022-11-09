@@ -30,6 +30,9 @@ body{
     font-family: 'Open Sans', sans-serif;;
 }
 
+button{
+    padding: 10px 15px;
+}
 /* header */
 
 /* nav bar */
@@ -73,9 +76,6 @@ h1{
     margin: 15px 0;
 }
 
-.jumbo .text button{
-    padding: 10px 15px;
-}
 
 .jumbo figure{
     flex-basis: 60%;
@@ -106,23 +106,41 @@ h2{
 }
 
 .sec-1 .card > *{
-    padding: 10px;
+    padding: 15px;
 }
 
-.sec-1 .card-bottom > div{
+.sec-1 .card-top{
+    text-align: center;
+}
+
+.tall .card-bottom > div{
     margin: 40px 0;
 }
 
-.sec-1 .card-bottom .name *{
-    margin: 20px 0;
+.card-bottom .name *, 
+.tall .card-bottom li, 
+.card-bottom .prova *,
+.wide .text *,
+.wide .btn{
+    margin: 15px 0;
 }
 
-.sec-1 .card-bottom li{
+.tall .card-bottom li{
     list-style-position: inside;
-    margin: 20px 0;
 }
 
-.sec-1 .card-bottom span, .sec-1 .card-bottom button{
+.tall .card-bottom span, .tall .card-bottom button{
     display: block;
 }
+
+.sec-1 .card.wide,
+.wide .description{
+    margin-top: 30px;
+}
+
+.sec-1 .wide .contact{
+    justify-content: space-between;
+}
+
+.wide .text *{}
 /* footer */
