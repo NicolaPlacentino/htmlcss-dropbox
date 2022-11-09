@@ -10,7 +10,9 @@
 
 /* utils */
 
-
+.flex{
+    display: flex;
+}
 
 /* generic */
 
@@ -20,8 +22,15 @@ body{
 
 /* header */
 
+header nav{
+    justify-content: space-between;
 
+    padding: 10px;
+}
 
+header .nav-left > *, header .nav-right > *{
+    padding: 10px 20px;
+}
 /* main */
 
 
