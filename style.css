@@ -14,6 +14,11 @@
     display: flex;
 }
 
+.container-lg{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
 /* generic */
 
 body{
@@ -21,6 +26,8 @@ body{
 }
 
 /* header */
+
+/* nav bar */
 
 header nav{
     justify-content: space-between;
@@ -31,6 +38,33 @@ header nav{
 header .nav-left > *, header .nav-right > *{
     padding: 10px 20px;
 }
+
+/* jumbotron */
+
+h1{
+    margin: 30px 0;
+}
+
+.jumbo > .flex{
+    justify-content: space-between;
+}
+
+.jumbo .text{
+    flex-basis: 40%;
+}
+
+.jumbo .text *{
+    margin: 15px 0;
+}
+
+.jumbo .text button{
+    padding: 10px 15px;
+}
+
+.jumbo figure{
+    flex-basis: 60%;
+}
+
 /* main */
 
 
