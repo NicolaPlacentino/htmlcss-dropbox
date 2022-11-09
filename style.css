@@ -32,8 +32,14 @@ body{
 
 button{
     padding: 10px 15px;
+
+    cursor: pointer;
 }
 
+.row{
+    justify-content: space-between;
+    gap: 60px;
+}
 /* header */
 
 /* nav bar */
@@ -88,10 +94,6 @@ h2{
     margin: 30px 0;
 }
 
-main .row{
-    justify-content: space-between;
-    gap: 60px;
-}
 
 /* section 1 */
 .sec-1{
@@ -177,6 +179,12 @@ main .row{
     margin-top: 20px;
 }
 
+/* section 4 */
+
+.sec-4{
+    padding-bottom: 50px;
+}
+
 /* section 5 */
 
 .sec-5 > div{
@@ -203,11 +211,34 @@ main .row{
 /* section 6 */
 
 .sec-6{
-    padding:50px;
+    padding:50px 0;
 }
 
 .sec-6 .flex{
     justify-content: space-between;
     align-items: center;
 }
+
+/* section 7 */
+.sec-7{
+    padding: 50px 0;
+}
+
+.sec-7 hr{
+    margin: 25px 0;
+}
 /* footer */
+
+footer{
+    padding: 50px;
+}
+
+footer li{
+    list-style-type: none;
+    line-height: 2rem;
+}
+
+footer .container-lg > *, footer .column > *{
+    margin-bottom: 30px;
+}
+
