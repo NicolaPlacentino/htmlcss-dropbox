@@ -46,13 +46,17 @@ h1, h2, h3, h4, b{
 
 button{
     padding: 10px 15px;
-
+    
     cursor: pointer;
 }
 
 .row{
     justify-content: space-between;
     gap: 60px;
+}
+
+.sec-3 h2, .sec-4 h2{
+    font-size: 35px;
 }
 /* header */
 
@@ -287,6 +291,11 @@ main{
 
 .sec-3 .card-top{
     padding: 10px;
+    
+}
+
+.sec-3 img{
+    width: 100%;
 }
 
 .sec-3 .card-bottom *{
@@ -297,31 +306,94 @@ main{
 
 .sec-4{
     padding-bottom: 50px;
+    margin-top: 100px;
 }
 
 /* section 5 */
 
+.sec-5{
+    margin-top: 50px;
+}
+
 .sec-5 > div{
-    flex-basis: calc(100% / 3);
+    width: calc(100vw / 3);
+    height: calc(100vw / 3);
 }
 
 .sec-5 .left, .sec-5 .right{
+    flex-basis: calc(100vw / 3);
     flex-wrap: wrap;
 }
 
-.sec-5 .left *, .sec-5 .right *{
+.sec-5 .left > *, .sec-5 .right > *{
     flex-basis: 50%;
     padding: 20px;
+    height: calc(100vw / 6);
+}
+
+.sec-5 .left img, .sec-5 .right img{
+    width: 75%;
+    filter: invert(1);
+}
+
+.sec-5 .brand-logo{
+    justify-content: center;
+    align-items: center;
 }
 
 .sec-5 .middle{
-    padding: 30px;
+    background-color: whitesmoke;
+    padding: 40px;
+    font-size: 14px;
 }
 
-.sec-5 .middle *{
-    margin-bottom: 30px;
+.sec-5 .middle img{
+    width: 50%;
+    margin-bottom: 20px;
 }
 
+.sec-5 .middle .text{
+    padding: 20px 0;
+    border-top: 1px solid #c3c3c3;
+}
+
+.sec-5 .middle .text .name{
+    display: block;
+    margin-top: 30px;
+}
+
+#designit{
+    background-color: #a2d39b;
+    border: 10px solid #d1e9cd;
+}
+
+#asu{
+    background-color: #61082b;
+}
+
+#uf{
+    background-color: #0093ce;
+}
+
+#topps{
+    background-color: #ff1c1c;
+}
+
+#wbr{
+    background-color: #d5001f;
+}
+
+#hearst{
+    background-color: #b4d0e7;
+}
+
+#loney{
+    background-color: #0d2481;
+}
+
+#clearchannel{
+    background-color: #ffd830;
+}
 /* section 6 */
 
 .sec-6{
