@@ -19,6 +19,11 @@
     margin: 0 auto;
 }
 
+.container-sm{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 /* generic */
 
 body{
@@ -78,6 +83,46 @@ h1{
 
 /* main */
 
+h2{
+    margin: 30px 0;
+}
 
+/* section 1 */
 
+.radius{
+    justify-content: flex-start;
+    gap: 40px;
+
+    margin: 30px 0;
+}
+
+.sec-1 .card-container{
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.sec-1 .card.tall{
+    flex-basis: calc(100% / 3);
+}
+
+.sec-1 .card > *{
+    padding: 10px;
+}
+
+.sec-1 .card-bottom > div{
+    margin: 40px 0;
+}
+
+.sec-1 .card-bottom .name *{
+    margin: 20px 0;
+}
+
+.sec-1 .card-bottom li{
+    list-style-position: inside;
+    margin: 20px 0;
+}
+
+.sec-1 .card-bottom span, .sec-1 .card-bottom button{
+    display: block;
+}
 /* footer */
