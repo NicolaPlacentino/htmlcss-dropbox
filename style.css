@@ -328,14 +328,31 @@ main{
 
 footer{
     padding: 50px;
+    background-color: #000;
+    color: #fff;
+    font-size: 14px;
+}
+
+footer h3{
+    color: white;
 }
 
 footer li{
     list-style-type: none;
-    line-height: 2rem;
+    line-height: 2.5rem;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
 }
 
 footer .container-lg > *, footer .column > *{
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 
+footer .lang-selector{
+    color: rgb(177, 177, 177);
+    padding-top: 15px;
+    border-top:1px solid rgb(177, 177, 177);
+}
