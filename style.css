@@ -88,6 +88,9 @@ h2{
 }
 
 /* section 1 */
+.sec-1{
+    margin-bottom: 70px;
+}
 
 .radius{
     justify-content: flex-start;
@@ -142,5 +145,18 @@ h2{
     justify-content: space-between;
 }
 
-.wide .text *{}
+/* section 2 */
+
+.sec-2 figure{
+    flex-basis: 60%;
+}
+
+.sec-2 .text{
+    flex-basis: 40%;
+    padding: 20px;
+}
+
+.sec-2 .text *{
+    margin: 15px 0;
+}
 /* footer */
