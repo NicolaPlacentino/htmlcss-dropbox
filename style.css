@@ -29,6 +29,10 @@
     background-color: #0061ff;
     color: white;
 }
+
+.blue:hover{
+    background-color: #5294ff;
+}
 /* generic */
 
 body{
@@ -252,6 +256,10 @@ main{
     flex-basis: 60%;
 }
 
+.sec-2 img{
+    width: 100%;
+}
+
 .sec-2 .text{
     flex-basis: 40%;
     padding: 20px;
@@ -261,6 +269,15 @@ main{
     margin: 15px 0;
 }
 
+.sec-2 button{
+    background-color: white;
+    border: 1px solid #303030;
+}
+
+.sec-2 button:hover{
+    color: #c3c3c3;
+    border: 1px solid #727272;
+}
 /* section 3 */
 
 .sec-3 .card{
