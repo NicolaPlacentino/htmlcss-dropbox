@@ -31,8 +31,15 @@ body{
 
 header nav{
     justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 
     padding: 10px;
+
+    /* !da cancellare dopo */
+    background-color: lightblue;
 }
 
 header .nav-left > *, header .nav-right > *{
@@ -40,6 +47,10 @@ header .nav-left > *, header .nav-right > *{
 }
 
 /* jumbotron */
+
+.jumbo{
+    margin-top: 68px;
+}
 
 h1{
     margin: 30px 0;
