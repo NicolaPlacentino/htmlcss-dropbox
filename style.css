@@ -24,6 +24,11 @@
     margin: 0 auto;
 }
 
+.blue{
+    border: none;
+    background-color: #0061ff;
+    color: white;
+}
 /* generic */
 
 body{
@@ -50,21 +55,36 @@ header nav{
     top: 0;
     left: 0;
     right: 0;
-    
-    padding: 10px;
 
-    /* !da cancellare dopo */
-    background-color: lightblue;
+    background-color: #fff;
+
+    padding-right:15px;
 }
 
-header .nav-left > *, header .nav-right > *{
-    padding: 10px 20px;
+header .nav-left > *, header .nav-right > a{
+    padding: 20px 20px;
+    vertical-align: middle;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #414141;
+}
+
+header nav a:hover{
+    border-bottom: 2px solid rgb(38, 50, 87);
+}
+
+header .nav-right .btn{
+    align-items: center;
 }
 
 /* jumbotron */
 
 .jumbo{
-    margin-top: 68px;
+    padding-top: 60px;
+
+    background-color: #b4d0e7;
 }
 
 h1{
