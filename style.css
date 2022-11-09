@@ -200,4 +200,14 @@ main .row{
     margin-bottom: 30px;
 }
 
+/* section 6 */
+
+.sec-6{
+    padding:50px;
+}
+
+.sec-6 .flex{
+    justify-content: space-between;
+    align-items: center;
+}
 /* footer */
