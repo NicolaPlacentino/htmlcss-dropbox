@@ -36,7 +36,7 @@ body{
     color: #303030;
 }
 
-h1, h2, h3, h4{
+h1, h2, h3, h4, b{
     color: #000;
 }
 
@@ -73,7 +73,7 @@ header .nav-left > *, header .nav-right > a{
 
 header nav a{
     text-decoration: none;
-    color: #414141;
+    color: #303030;
 }
 
 header nav a:hover{
@@ -136,7 +136,7 @@ h2{
 }
 
 main{
-    margin-top: 100px;
+    margin-top: 150px;
 }
 
 /* section 1 */
@@ -144,13 +144,41 @@ main{
     margin-bottom: 70px;
 }
 
+.sec-1 h2{
+    font-size: 40px;
+}
+
+.sec-1 h3 {
+    font-size: 22px;
+}
+
 .radius{
     justify-content: flex-start;
     gap: 40px;
+    font-size: 13px;
 
     margin: 30px 0;
 }
 
+.radius span::before{
+    content: '';
+    border: 1.5px solid #c3c3c3;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.radius span:hover::before{
+    border: 5px solid #0061ff;
+    width: 8px;
+    height: 8px;
+}
+
+.sec-1 .card{
+    border: 1px solid #c3c3c3;
+}
 
 .sec-1 .card.tall{
     flex-basis: calc(100% / 3);
@@ -163,17 +191,28 @@ main{
 .sec-1 .card-top{
     text-align: center;
 }
+.sec-1 .card-bottom{
+    border-top: 1px solid #c3c3c3;
+    font-size: 14px;
+}
 
 .tall .card-bottom > div{
     margin: 40px 0;
 }
 
 .card-bottom .name *, 
-.tall .card-bottom li, 
 .card-bottom .prova *,
 .wide .text *,
 .wide .btn{
     margin-bottom: 15px;
+}
+
+.tall .info{
+    height: 110px;
+}
+
+.card-bottom li{
+    margin-top: 15px;
 }
 
 .tall .card-bottom li{
@@ -184,6 +223,16 @@ main{
     display: block;
 }
 
+.tall .card-bottom li{
+    list-style-type:none;
+}
+
+.card-bottom .checked li::before{
+    content: '\f00c';
+    font: var(--fa-font-solid);
+    color: #0061ff;
+}
+
 .sec-1 .card.wide,
 .wide .description{
     margin-top: 30px;
@@ -191,6 +240,10 @@ main{
 
 .sec-1 .wide .contact{
     justify-content: space-between;
+}
+
+.hr{
+    border-top: 1px solid #c3c3c3;
 }
 
 /* section 2 */
