@@ -5,7 +5,7 @@
     box-sizing: border-box;
 
     /* !da cancellare dopo */
-    border: 1px dashed black;
+    /* border: 1px dashed black; */
 }
 
 /* utils */
@@ -15,12 +15,12 @@
 }
 
 .container-lg{
-    max-width: 1400px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
 .container-sm{
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -32,7 +32,12 @@
 /* generic */
 
 body{
-    font-family: 'Open Sans', sans-serif;;
+    font-family: 'Open Sans', sans-serif;
+    color: #303030;
+}
+
+h1, h2, h3, h4{
+    color: #000;
 }
 
 button{
@@ -84,11 +89,14 @@ header .nav-right .btn{
 .jumbo{
     padding-top: 60px;
 
+    height: 650px;
+
     background-color: #b4d0e7;
 }
 
 h1{
     margin: 30px 0;
+    font-size: 80px;
 }
 
 .jumbo > .flex{
@@ -97,15 +105,28 @@ h1{
 
 .jumbo .text{
     flex-basis: 40%;
+    padding-right: 20px;
 }
 
 .jumbo .text *{
-    margin: 15px 0;
+    margin-bottom: 30px;
 }
 
+.jumbo .text p:last-of-type{
+    font-size: 14px;
+}
+
+.jumbo .text i{
+    font-size: 45px;
+    font-weight: 700;
+}
 
 .jumbo figure{
     flex-basis: 60%;
+}
+
+.jumbo img{
+    width: 100%;
 }
 
 /* main */
@@ -114,6 +135,9 @@ h2{
     margin: 30px 0;
 }
 
+main{
+    margin-top: 100px;
+}
 
 /* section 1 */
 .sec-1{
