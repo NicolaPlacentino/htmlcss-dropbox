@@ -116,13 +116,13 @@ h1{
     font-size: 80px;
 }
 
-.jumbo > .flex{
+.jumbo .flex{
     justify-content: space-between;
+    gap: 20px;
 }
 
 .jumbo .text{
     flex-basis: 40%;
-    padding-right: 20px;
 }
 
 .jumbo .text *{
@@ -136,6 +136,13 @@ h1{
 .jumbo .text i{
     font-size: 45px;
     font-weight: 700;
+    animation: jumping 1.5s ease infinite;
+}
+
+@keyframes jumping{
+    0%{transform: translateY(0);}
+    50%{transform: translateY(10px);}
+    100%{transform: translateY(0);}
 }
 
 .jumbo figure{
@@ -210,7 +217,7 @@ main{
 .card-bottom .name *, 
 .card-bottom .prova *,
 .wide .text *,
-.wide .btn{
+.wide .button{
     margin-bottom: 15px;
 }
 
