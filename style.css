@@ -243,11 +243,16 @@ main{
     margin-top: 15px;
     list-style-position: inside;
     list-style-type:none;
+
+    display: flex;
 }
 
-.card-bottom .checked li::before{
-    content: '\f00c';
-    font: var(--fa-font-solid);
+.card-bottom li i{
+    margin-top: 3px;
+    margin-right: 4px;
+}
+
+.card-bottom .checked i{
     color: #0061ff;
 }
 
