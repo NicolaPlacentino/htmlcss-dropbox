@@ -164,11 +164,11 @@ main{
 }
 
 /* ! section 1 */
-.sec-1{
+.business-plan{
     margin-bottom: 70px;
 }
 
-.sec-1 h3 {
+.business-plan h3 {
     font-size: 22px;
 }
 
@@ -198,18 +198,18 @@ main{
 
 /* cards */
 
-.sec-1 .card{
+.business-plan .card{
     border: 1px solid #c3c3c3;
 }
 
-.sec-1 .card > *{
+.business-plan .card > *{
     padding: 15px;
 }
 
-.sec-1 .card-top{
+.business-plan .card-top{
     text-align: center;
 }
-.sec-1 .card-bottom{
+.business-plan .card-bottom{
     border-top: 1px solid #c3c3c3;
     font-size: 14px;
 }
@@ -227,7 +227,7 @@ main{
 
 /* tall cards only */
 
-.sec-1 .card.tall{
+.business-plan .card.tall{
     flex-basis: calc(100% / 3);
 }
 
@@ -274,45 +274,45 @@ main{
 
 /* ! section 2 */
 
-.sec-2 figure{
+.partner figure{
     flex-basis: 60%;
 }
 
-.sec-2 img{
+.partner img{
     width: 100%;
 }
 
-.sec-2 .text{
+.partner .text{
     flex-basis: 40%;
     padding: 30px;
 }
 
-.sec-2 .text *{
+.partner .text *{
     margin: 10px 0;
 }
 
 
 /* ! section 3 */
 
-.sec-3{
+.dropbox-features{
     margin-top: 100px;
 }
 
-.sec-3 .card{
+.dropbox-features .card{
     flex-basis: calc(100% / 3);
     margin-bottom: 40px;
 }
 
-.sec-3 .card-top{
+.dropbox-features .card-top{
     padding: 10px;
     
 }
 
-.sec-3 img{
+.dropbox-features img{
     width: 100%;
 }
 
-.sec-3 .card-bottom *{
+.dropbox-features .card-bottom *{
     margin-top: 20px;
 }
 
@@ -327,58 +327,62 @@ main{
 
 /* ! section 5 */
 
-.sec-5{
+.clients{
     margin-top: 50px;
 }
 
-.sec-5 > div{
+.clients > div{
     width: calc(100vw / 3);
     height: calc(100vw / 3);
 }
 
-.sec-5 .left, .sec-5 .right{
+.clients .left, .clients .right{
     flex-wrap: wrap;
 }
 
-.sec-5 .left > *, .sec-5 .right > *{
+.clients .left > *, .clients .right > *{
     flex-basis: 50%;
     padding: 20px;
     height: calc(100vw / 6);
+
+    border: 20px solid transparent;
+
+    transition: all 1s ease;
 }
 
-.sec-5 .left img, .sec-5 .right img{
-    width: 10vw;
+.clients .left img, .clients .right img{
+    width: 70%;
     filter: invert(1);
 }
 
-.sec-5 .brand-logo{
+.clients .brand-logo{
     justify-content: center;
     align-items: center;
 }
 
-.sec-5 .middle{
+.clients .middle{
     background-color: whitesmoke;
     padding: 40px;
     font-size: 14px;
 }
 
-.sec-5 .middle img{
+.clients .middle img{
     width: 50%;
     margin-bottom: 20px;
 }
 
-.sec-5 .middle .text{
+.clients .middle .text{
     padding: 20px 0;
     border-top: 1px solid #c3c3c3;
 }
 
-.sec-5 .middle .text .name{
+.clients .middle .text .name{
     display: block;
     margin-top: 30px;
 }
 
 .brand-logo:hover {
-    border: 10px solid rgba(255, 255, 255, 0.4);
+    border: 10px solid rgba(255, 255, 255, 0.45);
 }
 
 /* logos id */
@@ -418,50 +422,50 @@ main{
 
 /* ! section 6 */
 
-.sec-6{
+.free-trial{
     padding:50px 0;
     background-color: #b4d0e7;
 }
 
-.sec-6 .flex{
+.free-trial .flex{
     justify-content: space-between;
     align-items: flex-start;
 }
 
-.sec-6 h2{
+.free-trial h2{
     color: #61082b;
 }
 
-.sec-6 button.white{
+.free-trial button.white{
     flex-basis: 20%;
     margin-top: 40px;
     border: none;
 }
 
 /* ! section 7 */
-.sec-7{
+.freq-quest{
     padding: 50px 0;
 }
 
-.sec-7 hr{
+.freq-quest hr{
     margin: 25px 0;
 }
 
-.sec-7 p{
+.freq-quest p{
     display: none;
 }
-.sec-7 .row:hover p{
+.freq-quest .row:hover p{
     display: block;
     margin-top: 10px;
 }
 
-.sec-7 .fa-chevron-up{
+.freq-quest .fa-chevron-up{
     display: none;
 }
-.sec-7 .row:hover .fa-chevron-up{
+.freq-quest .row:hover .fa-chevron-up{
     display: inline;
 }
-.sec-7 .row:hover .fa-chevron-down{
+.freq-quest .row:hover .fa-chevron-down{
     display: none;
 }
 
