@@ -377,62 +377,42 @@ main{
     margin-top: 30px;
 }
 
+.brand-logo:hover {
+    border: 10px solid rgba(255, 255, 255, 0.4);
+}
+
 /* logos id */
 
 #designit{
     background-color: #a2d39b;
 }
-#designit:hover{
-    border: 10px solid #d1e9cd;
-}
 
 #asu{
     background-color: #61082b;
-}
-#asu:hover{
-    border: 10px solid #aa4a71;
 }
 
 #uf{
     background-color: #0093ce;
 }
-#uf:hover{
-    border:10px solid #68c4e9;
-}
 
 #topps{
     background-color: #ff1c1c;
-}
-#topps:hover{
-    border: 10px solid #ff7878;
 }
 
 #wbr{
     background-color: #d5001f;
 }
-#wbr:hover{
-    border:10px solid #ef667a;
-}
 
 #hearst{
     background-color: #b4d0e7;
-}
-#hearst:hover{
-    border:10px solid #d6e7f4;
 }
 
 #loney{
     background-color: #0d2481;
 }
-#loney:hover{
-    border: 10px solid #495dab;
-}
 
 #clearchannel{
     background-color: #ffd830;
-}
-#clearchannel:hover{
-    border:10px solid #ffed9e;
 }
 
 
